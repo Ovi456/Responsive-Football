@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: whitesmoke;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    width: 1160px;
+    margin: auto;
+}
+
+.button{
+    background:#E02C6D;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.button:hover{
+    padding: 12px 22px;
+    transition: 0.1s;
+}
+
+/* navbar section*/
+nav{
+    background-color: #2D25A0;
+    position: sticky;
+    top: 0;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+menu a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+menu a:hover{
+    color: #E02C6D;
+    transition: 0.2s;
+}
+
+/* top-banner section*/
+#top-banner{
+    background-color: #2D25A0;
+}
+#top-banner .container{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    align-items: center;
+       
+    color: white;
+}
+
+#top-banner .info{
+    width: 45%;
+    height: 400px;
+}
+
+#top-banner .image{
+    width: 50%; 
+}
+
+#top-banner img{
+ transition: transform 0.2s ease-in-out;
+}
+
+#top-banner img:hover{
+    transform: translate(-10px, -10px);
+}
+
+#top-banner h1{
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 30px;
+}
+
+/* article section */
+#article .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+    margin: 50px auto; 
+}
+
+article{
+background: white;
+padding: 20px;
+box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+article h3{
+    font-size: 28px;
+}
+
+/* footer */
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+   justify-content: center;
+}
+
+footer .img-group{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 100%;
+       }
+
+footer i{
+    font-size: 32px;
+    color: gray;
+    background-color: gainsboro;
+     -radius: 50%;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+footer p{
+    margin-top: 22px;
+    font-size: 19px;
+}
