@@ -118,6 +118,28 @@ article h3{
     font-size: 28px;
 }
 
+/* table */
+h2{
+    color:#E02C6D;
+    margin-bottom: 15px;
+    
+}
+td{
+    border: 1px solid cornflowerblue;
+    border-width: 2px;
+    height: 30px;
+    width: 500px;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    background-color:seashell;
+}
+thead tr {
+    background-color:peru;
+    text-decoration: snow;
+}
+
 /* footer */
 footer .container{
     display: flex;
